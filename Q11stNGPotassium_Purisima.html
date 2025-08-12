@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color:lightpink;
+                font-size:medium;
+                color:darkred;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+        
+            let age = window.prompt ("Enter your age: ");
+            let maxAge = window.prompt ("How old do you want to live?: ");
+            let numPerDay = window.prompt ("How many of these snacks do you eat each day?: ");
+        
+            let sure = window.confirm (`Please confirm if you are ${age} years old, living until ${maxAge} and you eat your snack ${numPerDay} daily!`);
+        
+            if (sure == true){ 
+            var totalRequired = (numPerDay * 365) * (maxAge - age);
+            document.write ("You are currently " + age + " years old and you will live up until " + maxAge + ". You eat your snacks " + numPerDay + " times everyday. ")
+            document.write ("You will need " + totalRequired + " cups of coffee to last you until the ripe old age of " + maxAge + ".");
+        }
+            else {
+            document.write ("Eat well!");
+            }
+        
+        </script>
+        
+    </body>
+</html>
+
