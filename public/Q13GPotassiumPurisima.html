@@ -32,6 +32,16 @@
         var userGuess = document.getElementById("guess").value;
         userGuess = parseInt(userGuess);
 
+        if (userGuess === dNumber){
+            document.write("YAY! You are correct!")
+        }
+        else if (userGuess < dNumber){
+            document.write("Higher")
+        }
+        else if (userGuess > dNumber){
+            document.write("Lower")
+        }
+        else { document.write("Please enter a valid number.")}
             
          
         }
