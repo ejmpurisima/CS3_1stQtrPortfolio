@@ -46,9 +46,10 @@
             const totalCost = mp + tip + (sc / 100 * mp);
             const final_TotalCost = totalCost.toFixed(2);
 
-            
-            
-         
+            const output = document.getElementById("totalMealOutput");
+            output.textContent = "Total Meal: " + final_TotalCost;
+
+        
         }
     </script>
 
