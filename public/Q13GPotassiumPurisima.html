@@ -36,17 +36,16 @@
         userGuess = parseInt(userGuess);
 
         if (userGuess === dNumber){
-            messageElement.textContent("YAY! You are correct!")
+            messageElement.textContent = "YAY! You are correct!";
         }
         else if (userGuess < dNumber){
-            messageElement.textContent("Higher")
+            messageElement.textContent = "Higher";
         }
         else if (userGuess > dNumber){
-            messageElement.textContent("Lower")
+            messageElement.textContent = "Lower";
         }
         else { messageElement.textContent("Please enter a valid number.")}
             
-        document.getElementById("message").textContent = "Higher"
         }
     </script>
 
