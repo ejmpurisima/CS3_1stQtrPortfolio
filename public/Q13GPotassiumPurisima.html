@@ -22,28 +22,31 @@
 
     <button id = "btn_submit" onclick="checkIt()">Check It</button>
 
+    <p id="message"></p>
+
    <!-- Enter your HTML tags below  but before the opening script tag -->
 
     <script>
         
        var dNumber = Math.floor(Math.random() * 100) + 1;
+       var message = document.getElementById("message");
 
         function checkIt() {
         var userGuess = document.getElementById("guess").value;
         userGuess = parseInt(userGuess);
 
         if (userGuess === dNumber){
-            document.write("YAY! You are correct!")
+            messageElement.textContent("YAY! You are correct!")
         }
         else if (userGuess < dNumber){
-            document.write("Higher")
+            messageElement.textContent("Higher")
         }
         else if (userGuess > dNumber){
-            document.write("Lower")
+            messageElement.textContent("Lower")
         }
-        else { document.write("Please enter a valid number.")}
+        else { messageElement.textContent("Please enter a valid number.")}
             
-         
+        document.getElementById("message").textContent = "Higher"
         }
     </script>
 
