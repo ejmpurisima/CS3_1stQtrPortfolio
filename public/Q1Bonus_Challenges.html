@@ -59,5 +59,13 @@
     guessedLetters.push(letter);
     document.getElementById("guesses").textContent = guessedLetters.join(", ");
     document.getElementById("letterInput").value = "";
-  }
+
+    for (let i = 0; i < guessedLetters.length; i++){
+        if (letter == letterInput){
+            document.write("Already guessed!");
+        }
+    } // HUH?????
+
+    }
+
 </script>
