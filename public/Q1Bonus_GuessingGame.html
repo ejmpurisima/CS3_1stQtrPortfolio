@@ -33,6 +33,19 @@
         correct = true;
       }
     }
+    
+    for (let i = 0; i < secretWord.length; i++) {
+      if (counter > 0) {
+         if (secretWord[i] === guess) {
+            guessedWord[i] = guess;
+            correct = true;
+            counter--;
+            }
+      }
+      else {
+        break;
+      }
+    }
 
     document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
     document.getElementById("message").textContent = correct ? "✅ Correct!" : "❌ Try again.";
