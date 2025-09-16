@@ -16,10 +16,12 @@
 <input type="text" id="guessInput" maxlength="1">
 <button onclick="makeGuess()">Guess</button>
 <p id="message"></p>
+<p> Remaining tries: <span id="counter"></span></p>
 
 <script>
   let secretWord = ["e", "n", "e", "r", "g", "e", "t", "i", "c"];
   let guessedWord = ["_", "_", "_", "_", "_", "_", "_", "_", "_"];
+  let counter = 10;
 
   document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
 
@@ -50,6 +52,7 @@
     document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
     document.getElementById("message").textContent = correct ? "✅ Correct!" : "❌ Try again.";
     document.getElementById("guessInput").value = "";
+    document.getElementById("counter").innerHTML = counter;
   }
 </script>
 
