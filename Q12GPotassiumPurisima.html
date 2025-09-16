@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 2nd Graded Exercise submitted by Erin Purisima of 9-Potassium</h2>
+    <head>
+        <style>
+            body {
+                background-color:lightpink;
+                font-size:25px;
+                color:darkred;
+            }
+        </style>
+    </head>
+
+    <div>Meal Price:
+        <input id = "meal_price" style = "width: 100px; height: 20px;">
+        <br>
+    </div>
+
+    <div>Tip:
+        <input id = "my_tip" style = "width: 100px; height: 20px;">
+        <br>
+    </div>
+    
+    <div>Service Charge:
+        <input id = "serve_charge" style = "width: 100px; height: 20px;">
+        <br>
+        <button id = "btn_submit" onclick="totalMeal()">Accept Input</button>
+    </div>
+
+     <p id="totalMealOutput"></p>
+
+    <script type="text/javascript">
+
+        function totalMeal() {
+            const mp = 119.00;
+            const tip = 20;
+            const sc = 12;
+
+            const totalCost = mp + tip + (sc / 100 * mp);
+            const final_TotalCost = totalCost.toFixed(2);
+
+            const output = document.getElementById("totalMealOutput");
+            output.textContent = "Total Meal: " + final_TotalCost;
+
+        }
+    </script>
+
+</body>
+</html>

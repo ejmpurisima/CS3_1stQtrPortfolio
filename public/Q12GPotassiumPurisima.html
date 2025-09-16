@@ -26,19 +26,24 @@
     <div>Service Charge:
         <input id = "serve_charge" style = "width: 100px; height: 20px;">
         <br>
-        <button id = "btn_submit">Accept Input</button>
+        <button id = "btn_submit" onclick="totalMeal()">Accept Input</button>
     </div>
 
-    <!-- Enter your tags below until the script tag -->
+     <p id="totalMealOutput"></p>
 
     <script type="text/javascript">
-        const price = document.getElementById("meal_price");
-        const tip = document.getElementById("my_tip");
-        const charge = document.getElementById("serve_charge");
 
         function totalMeal() {
-            
-         
+            const mp = 119.00;
+            const tip = 20;
+            const sc = 12;
+
+            const totalCost = mp + tip + (sc / 100 * mp);
+            const final_TotalCost = totalCost.toFixed(2);
+
+            const output = document.getElementById("totalMealOutput");
+            output.textContent = "Total Meal: " + final_TotalCost;
+
         }
     </script>
 
