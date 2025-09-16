@@ -6,17 +6,23 @@
                 font-size:40px;
                 color:darkred;
                 text-align: center;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
                 justify-content: center;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+                align-items: center;
             }
         </style>
     </head>
-<h1> Guess My Word! 🌷 </h1>
-<p id="wordDisplay"></p>
-<input type="text" id="guessInput" maxlength="1">
-<button onclick="makeGuess()">Guess</button>
-<p id="message"></p>
-<p> Remaining tries: <span id="counter"></span></p>
+  <body>
+    <div class="game-container">
+  <h1> Guess My Word! 🌷 </h1>
+  <p id="wordDisplay"></p>
+  <input type="text" id="guessInput" maxlength="1">
+  <button onclick="makeGuess()">Guess</button>
+  <p id="message"></p>
+  <p> Remaining tries: <span id="counter"></span></p>
+  </div></body>
+
 
 <script>
   let secretWord = ["e", "n", "e", "r", "g", "e", "t", "i", "c"];
