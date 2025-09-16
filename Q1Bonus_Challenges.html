@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- <html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> Pimp My Button </title>
+        <style>
+            button {
+                padding: 10px 20px;
+                font-size: 1 rem;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Click Me!</button>
+    </body>
+</html> -->
+
+<h1>My Favorite Numbers</h1>
+<ul id="numberList"></ul>
+
+<script>
+  let list = document.getElementById("numberList");
+  for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0){
+        list.innerHTML += `<li>Number ${i}</li>`;
+    }
+}
+</script>
+
+<h1>My Favorite Animals</h1>
+<ul id="animalList"></ul>
+
+<script>
+  let meow = [" Deer", " Bunny", " Seal", " Puppy"];
+  let gyatt = document.getElementById("animalList");
+
+  for (let i = 0; i < meow.length; i++) {
+    gyatt.innerHTML += `<li>${meow[i]}</li>`;
+  }
+
+  meow.unshift("Raven");
+  var popped = meow.pop();
+  document.write("Re-displayed Array: ");
+  document.write(meow);
+
+</script>
+
