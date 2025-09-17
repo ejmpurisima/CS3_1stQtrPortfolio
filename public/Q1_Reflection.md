@@ -9,14 +9,19 @@
 4. **Conditional Statements:** Whenever I doubt myself in CS, I know that I don't doubt my ability in these two. Again, for the past two years, we've been discussing conditional statements, especially if-else statements. All the statements are part of foundations for CS, and it is very helpful to me to control conditions.
 5. **Output in the Alert Dialog Boxes:** This was when Ma'am Aline taught us how to do alert prompts in websites. I thought it was really cool because it was new to me. Now, I'm confident on how to generate one and what kind of output I expect.
 
+
 ### List at least 5 topics that you know and can describe but needs further practice/discussion and why.  The why should be per topic listed.  
 1. **Relational and Logical Operators:** JS made me realize how important these operators are. As I learned in class, there is a certain order of priority and strictness when it comes to these operators. I was having trouble with the equal signs, especially !x, but now I finally understand them. 
 2. **Arrays:** Arrays has been my favorite lesson since C++. In JS, there are other different ways to modify and manipulate them. But in general, I still need to practice and remember the "push", "unshift", and even the placements of my elements.
 3. **Input/Output:** User input and output are still very confusing to me, especially the pre-defined functions in JS. I can only use pre-set inputs and not user inputs.
-4. **Functions:** 
-5. **While Loops:**
+4. **Functions:** In general, even in C++, I still have trouble with this topic. It's hard for me to put the procedure and even call them.
+5. **While Loops:** Unlike for loops, I still have trouble with while loops because of the condition. Personally, for loops are more direct because of the initialization, condition, and update in just the parentheses.
 
 
 ### Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
+1. I will memorize and remember the order of priority and also what the operators indicate.
+2. I will memorize the modifications and what they do, and study how loops go hand-in-hand with arrays with accessibility.
+3. 
+
 
 ### In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?
