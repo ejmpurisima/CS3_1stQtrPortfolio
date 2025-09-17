@@ -21,7 +21,11 @@
 ### Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
 1. I will memorize and remember the order of priority and also what the operators indicate.
 2. I will memorize the modifications and what they do, and study how loops go hand-in-hand with arrays with accessibility.
-3. 
+3. For inputs and values, I will study the number methods. And for outputs, I need to practice the pre-defined functions like the readline, etc.
+4. Functions require practice on making them and calling them. I think if I practice more user-defined and void functions in general, I will get used to it and even improve on how I use them.
+5. For while and do-while loops, I need more understanding on how they work in general. The iterations and conditions confuse me.
 
 
 ### In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?
+1. The 3 review challenges of loops and arrays + the bonus guessing game really helped me understand how they work in general. I think they helped me most in reviewing because I just had to go back to them.
+2. Sir Roy helped us understand switch statements deeper, and I think I understood how to take in multiple values at once to generate one compound output.
